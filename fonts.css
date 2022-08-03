@@ -1,5 +1,39 @@
+.respn {
+	display:none;
+}
+
+header {
+	width: 100%;
+}
+
+header nav {
+	background: darkorchid;
+	z-index:1000;
+	width: 100%;
+	float: left;
+	margin: 5px auto;
+}
+
 @media screen and (max-width: 800px) {
 	body {
-		padding-top: 80px;
+		padding-top: 50px;
+	}
+
+	.respn {
+		display:block;
+		width:97%;
+		position: fixed;
+		top: 15px;
+		padding: 15px;
+		background: darkorchid;
+	}
+
+	header nav {
+		width: 50%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
 	}
 }
