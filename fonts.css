@@ -1,4 +1,4 @@
-.respn {
+.menu_bar {
 	display:none;
 }
 
@@ -19,7 +19,7 @@ header nav {
 		padding-top: 50px;
 	}
 
-	.respn {
+	.menu_bar {
 		display:block;
 		width:97%;
 		position: fixed;
