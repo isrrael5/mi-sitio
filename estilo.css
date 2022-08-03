@@ -1,0 +1,25 @@
+h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+body {
+    background-color: #121212;
+    color: whitesmoke;
+}
+
+article {
+    background-color: #212327;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 1px 3px 4px grey;
+}
