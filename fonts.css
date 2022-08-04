@@ -1,5 +1,5 @@
 .menu_bar {
-	display:none;
+	display: none;
 }
 
 header {
@@ -7,6 +7,7 @@ header {
 }
 
 header nav {
+	display: block;
 	background: darkorchid;
 	z-index:1000;
 	width: 100%;
@@ -14,17 +15,30 @@ header nav {
 	margin: 5px auto;
 }
 
+section {
+	width: 78%;
+    display: block;
+    float: left;
+    padding: 20px 5px 0px;
+}
+
+aside{
+	width: 20%;
+    display: block;
+    float: right;
+    padding: 20px 0px 5px;
+}
+
 @media screen and (max-width: 800px) {
 	body {
-		padding-top: 50px;
+		padding-top: 5px;
 	}
 
 	.menu_bar {
-		display:block;
+		display: block;
 		width:97%;
-		position: fixed;
 		top: 15px;
-		padding: 15px;
+		padding: 10px 5px 5px;
 		background: darkorchid;
 	}
 
@@ -35,5 +49,19 @@ header nav {
 		right:100%;
 		margin: 0;
 		overflow: scroll;
+	}
+
+	section {
+		width: 97%;
+		display: block;
+		float: left;
+		padding: 20px 5px 0px;
+	}
+	
+	aside{
+		width: 97%;
+		display: block;
+		float: left;
+		padding: 5px 5px 0px;
 	}
 }
